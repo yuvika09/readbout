@@ -2,6 +2,7 @@ import './App.css';
 import React, { Component } from 'react'
 import Navbar from './Components/Navbar.js';
 import News from './Components/News';
+import Loadspinner from './Components/loadspinner';
 
 export default class App extends Component {
   render() {
@@ -9,7 +10,7 @@ export default class App extends Component {
       <div>
         Hello this is class component
         <Navbar/>
-        <News/>
+        <News pageSize={5}/>
       </div>
     )
   }
