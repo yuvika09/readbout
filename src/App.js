@@ -8,8 +8,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        Hello this is class component
-        <Navbar/>
+        {/* <Navbar/> */}
         <News pageSize={5}/>
       </div>
     )

@@ -1,0 +1,11 @@
+
+
+#heading {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 50px;
+    margin: 40px;
+    color: rgb(7, 54, 129);
+}
+.row {
+    justify-content: space-evenly;
+}

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Newsitem from './Newsitem'
 import Loadspinner from './loadspinner';
-;
+import './news.css';
 
 export class News extends Component {
 
@@ -55,7 +55,7 @@ export class News extends Component {
         return (
             <>
                 <div className="container my-3">
-                    <h1 className='text-center'>Top Headlines</h1>
+                    <h1 className='text-center' id='heading'>Top Headlines</h1>
                     {this.state.loading && <Loadspinner/>}
                     <div className="row">
                         {!this.state.loading && this.state.articles.map((element) => {
